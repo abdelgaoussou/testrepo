@@ -1,0 +1,63 @@
+{
+  "account_id": "123456",
+  "ReportProcessDate": "2023-09-05",
+  "sub_accounts": [
+    {
+      "sub_account_id": "987654321",
+      "sub_account_fuel_transactions": [
+        {
+          "fuel_card_number": "1234567890",
+          "transaction_number": "987654321",
+          "TransactionDateTime": "2023-09-05T10:15:30Z",
+          "TransactionStatus": "A",
+          "TransactionType": "F",
+          "TransactionBillCode": "D",
+          "TractorGallons": "100.5",
+          "TractorFuelPrice": "3.50",
+          "TractorFuelCost": "350.00",
+          "TractorFuelDiscount": "5.00",
+          "TractorFuelDescription": "Diesel",
+          "TractorFuelCode": "DL",
+          "FundedAmt": "350.00",
+          "MiscProducts": [
+            {
+              "ProductCode": "DEF",
+              "ProductDescription": "Diesel Exhaust Fluid",
+              "ProductAmt": "20.00",
+              "ProductBillCode": "F"
+            }
+          ]
+        },
+        {
+          "fuel_card_number": "1234567891",
+          "transaction_number": "987654322",
+          "TransactionDateTime": "2023-09-06T11:30:45Z",
+          "TransactionStatus": "B",
+          "TransactionType": "G",
+          "TransactionBillCode": "E",
+          "TractorGallons": "50.25",
+          "TractorFuelPrice": "3.60",
+          "TractorFuelCost": "180.90",
+          "TractorFuelDiscount": "3.00",
+          "TractorFuelDescription": "Gasoline",
+          "TractorFuelCode": "GA",
+          "FundedAmt": "180.90",
+          "MiscProducts": [
+            {
+              "ProductCode": "OIL",
+              "ProductDescription": "Engine Oil",
+              "ProductAmt": "10.00",
+              "ProductBillCode": "F"
+            }
+          ]
+        }
+      ],
+      "SubAccountFuelTotals": {
+        "SubAccountFuelFundedCost": "530.90"
+      }
+    }
+  ],
+  "AccountFuelTotals": {
+    "AccountFuelTotalFundedCost": "530.90"
+  }
+}
